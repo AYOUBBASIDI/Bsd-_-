@@ -4,6 +4,7 @@ import VueKinesis from "vue-kinesis";
 
 
 
+
 const app = createApp(App);
 app.use(VueKinesis);
 app.mount("#app");

@@ -1,5 +1,5 @@
 <template>
-<p v-on:click="onClickButton">tets</p>
+<p>tets</p>
         <!-- <kinesis-element :strength="30">
             <img src="">
         </kinesis-element> -->

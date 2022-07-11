@@ -2,9 +2,11 @@
 <body>
 <div v-show="elementVisible" id="load">
     <LoadingPage/> 
+    <ExemplePage @clicked="onClickChild"/>  
 </div>
   <HomePage/>
- <ExemplePage @clicked="onClickChild"/>
+
+<TypeEffect/>
 
 
   </body>
@@ -14,6 +16,7 @@
 import HomePage from './components/HomePage.vue'
 import LoadingPage from './components/LoadingPage.vue'
 import ExemplePage from './components/ExemplePage.vue'
+import TypeEffect from './components/TypeEffect.vue'
 
 export default {
   name: 'App',
@@ -21,6 +24,7 @@ export default {
     HomePage,
     LoadingPage,
     ExemplePage,
+    TypeEffect,
   },
   data() {
             return {
@@ -41,7 +45,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 body{
   background:#1d1d1f;
   font-family: 'Roboto', sans-serif;
