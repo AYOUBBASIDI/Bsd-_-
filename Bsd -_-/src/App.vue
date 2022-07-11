@@ -2,9 +2,9 @@
 <body>
 <div v-show="elementVisible" id="load">
     <LoadingPage/> 
-    <ExemplePage @clicked="onClickChild"/>  
+      <HomePage/><ExemplePage @clicked="onClickChild"/>  
 </div>
-  <HomePage/>
+
 
 <TypeEffect/>
 
