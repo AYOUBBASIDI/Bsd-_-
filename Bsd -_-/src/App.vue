@@ -2,11 +2,10 @@
 <body>
 <div v-show="elementVisible" id="load">
     <LoadingPage/> 
-      <HomePage/><ExemplePage @clicked="onClickChild"/>  
+      <ExemplePage/>  
 </div>
 
-
-<TypeEffect/>
+<HomePage/>
 
 
   </body>
@@ -24,7 +23,6 @@ export default {
     HomePage,
     LoadingPage,
     ExemplePage,
-    TypeEffect,
   },
   data() {
             return {
